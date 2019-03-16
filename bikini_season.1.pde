@@ -610,8 +610,8 @@ boolean checkObjective(int i) {
       //println(tempPlayer);
       float d = PVector.dist(p, tempPlayer);
       //println(player.pos);
-      println(d);
-      println(playerWidth/2);
+      //println(d);
+      //println(playerWidth/2);
       if (d < playerWidth/2+22.5) {
         //teleportPlayer.rewind();
         //teleportPlayer.play();
