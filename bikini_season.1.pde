@@ -119,7 +119,7 @@ void setup() {
   levels.add(new Level(270, height-150-playerHeight/2));
   //levels.get(2).addPlatform(new PVector(0, height-5), 200);
   levels.get(2).addPlatform(new PVector(200, height-100), 290);
-  levels.get(2).addPlatform(new PVector(300, height-390), 70);
+  levels.get(2).addPlatform(new PVector(330, height-390), 90);
   levels.get(2).addPlatform(new PVector(430, height-270), 300);
   //levels.get(2).addPlatform(new PVector(100, height-450), 100);
   levels.get(2).addWall(new PVector(200, height-5), 95);
@@ -207,7 +207,7 @@ void draw() {
     textAlign(CENTER, CENTER);
     if (lostRazor >=1){
       textSize(15);
-      text("You have lost "+lostRazor+" razor(s) :(",width/2,height*5/7);
+      text("RIP Bob, the best pink razor there ever was :(",width/2,height*5/7);
     }
     
     text();
