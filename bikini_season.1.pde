@@ -207,7 +207,7 @@ void draw() {
     textAlign(CENTER, CENTER);
     if (lostRazor >=1){
       textSize(15);
-      text("You have lost "+lostRazor+" razor(s) :(",width/2,height/2);
+      text("You have lost "+lostRazor+" razor(s) :(",width/2,height*5/7);
     }
     
     text();
